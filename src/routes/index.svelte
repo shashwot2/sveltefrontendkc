@@ -1,6 +1,6 @@
 <div class="navigation">
-    <ul id="nav-bar">
-        <li><a class="active" href="">Home</a></li>
+    <ul id="nav-bar">>
+        <li><a class="active" href="#Home">Home</a></li>
         <li><a href="#about">About</a></li>
        <li><a href="#projects">Projects</a></li>
     </ul>
@@ -11,9 +11,11 @@
 <a href='https://www.freepik.com/vectors/software-background'>Software background</a>
 <button on:click|once={handleClick}>Click me</button>
 <style>
+    @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap');
     :global(body) {
         background-image: url('/Background.jpg');
         background-size: cover;
+        font-family: 'Comfortaa', cursive;
     }
     p {
         color:white;
@@ -32,14 +34,16 @@
 
     .navigation li {
         color: white;
-        float:left;
+        float:center;
     }
 
     .navigation ul li a {
         display: block;
-        color: black;
+        color: white;
         text-align: center;
-        padding: 14px 16px;
+        vertical-align: middle;
+        padding: 14px;
+        text-decoration: none;
     }
 </style>
 
