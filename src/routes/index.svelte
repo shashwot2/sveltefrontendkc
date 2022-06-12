@@ -7,7 +7,12 @@
 </div>
 
 <h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<p>
+    Hi! Welcome to my personal website. I'm Shashwot KC. You can call me KC if you like :). This website shows my personal projects and what I get up to in a regular basis. It is also me learning
+    a frontend framework to become a full stack engineer. I'm currently a backend engineer with some server skills to boot. This website was made with svelte.
+    
+    Blog under construction.
+</p>
 <a href='https://www.freepik.com/vectors/software-background'>Software background</a>
 <button on:click|once={handleClick}>Click me</button>
 
@@ -23,6 +28,7 @@
     }
     p {
         color:white;
+        align-items: center;
     }
     h1 {
         color: white;
